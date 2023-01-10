@@ -1,9 +1,9 @@
 <template>
  
- <rich />
- <users></users>
+  <rich />
+<users></users>
 
- 
+<!--<name></name>--> 
   
 </template>
 
@@ -12,6 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import home from './components/home.vue'
 import loopsss from './components/loops.vue'
 import rich from './components/compo.vue'
+import name from './components/template.vue'
 
 export default {
   name: 'App',
@@ -19,7 +20,8 @@ export default {
     HelloWorld,
     home,
     loopsss,
-    rich
+    rich,
+    name
 
   }
 }
