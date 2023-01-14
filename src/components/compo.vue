@@ -14,7 +14,7 @@
 import products from './products.vue'
 import users from './users'
 import databind from './databind.vue'
-import child from './child.vue'
+import child from './child_and_props.vue'
 
 export default {
     rich:"compo",
