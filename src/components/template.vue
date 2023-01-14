@@ -28,12 +28,8 @@ export default {
         {
             alert("Hello click")
             //this.name="aggressive"
-            this.ok=false
-            
+            this.ok=false            
         }
-        
-        
-
     }
 }
 </script>

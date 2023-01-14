@@ -1,15 +1,18 @@
 <template>
     <div class="users"> 
         <h1>Users Component</h1>
-     </div>
-    
-    
+        <classes></classes>
+     </div>      
 </template>
 
 <script>
+import classes from './classes.vue'
 export default {
-    rich:"users"
-    
+    rich:"users",
+    components:{
+        classes
+
+    }    
 }
 </script>
 

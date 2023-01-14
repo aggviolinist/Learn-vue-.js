@@ -3,8 +3,6 @@
         <h2>Products Component</h2>
         <name/> 
     </div>
-
-
 </template>
 
 <script>
@@ -15,8 +13,6 @@ export default{
         name
     }
 }
-
-
 </script>
 
 <style scoped>
@@ -27,5 +23,4 @@ height: 250px;
 padding: 80px;
 margin: 50px;
 }
-
 </style>
