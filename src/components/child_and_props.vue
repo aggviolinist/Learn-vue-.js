@@ -5,10 +5,10 @@
             {{ user.name }}::
             {{ user.email }}
         </h3>
-        <wazazi/>
-    
-    </div>
-    
+        <h2 style="color:aqua">Child + parent relationship</h2>
+        <h3>{{ title }}</h3>        
+        <wazazi v-on:megatron="updatethisbutton"/>    
+    </div>    
 </template>
 
 <script>
@@ -22,11 +22,19 @@ export default {
                 {name:"kev",email:"kev@gmail.com"},
                 {name:"dave",email:"dave@gmail.com"},
                 {name:"evans",email:"evans@gmail.com"}
-            ]
+            ],
+            title:"Last try"
     }  
     },
     components:{
         wazazi
+    },
+
+    methods:{
+        updatethisbutton(title){
+            this.title=title
+        }
+       
     }
 }
 </script>

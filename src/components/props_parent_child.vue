@@ -1,5 +1,6 @@
 <template>
-    <h3>{{ heading }}</h3>
+   <!-- <h3>{{ title }}</h3> --> 
+  
     <button v-on:click="clickme">Please click me</button>
     
 </template>
@@ -13,13 +14,14 @@ export default {
     data()
     {
         return{
-            heading:"Props, Child to Parent in vue "
+            title:"Props, Child to Parent in vue "
         }
     },
     methods:{
         clickme()
         {
-        alert("I have been clicked")
+        //alert("I have been clicked")
+        this.$emit('megatron','I changed coz you clicked me')
 
         }
         

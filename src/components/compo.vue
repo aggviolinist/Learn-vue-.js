@@ -6,6 +6,7 @@
         <users />  <child users="users"/>
         <products/>  
         <databind/>
+        <login/>
                   
     </div>  
 </template>
@@ -15,6 +16,7 @@ import products from './products.vue'
 import users from './users'
 import databind from './databind.vue'
 import child from './child_and_props.vue'
+import login from './login.vue'
 
 export default {
     rich:"compo",
@@ -22,7 +24,8 @@ export default {
         users,
         products,
         databind,
-        child
+        child,
+        login
 
     },
     data()
