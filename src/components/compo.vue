@@ -7,6 +7,10 @@
         <products/>  
         <databind/>
         <login/>
+        <signup/>
+        <validation/>
+        <revisionLogin/>
+        <formchannge/>
                   
     </div>  
 </template>
@@ -17,6 +21,10 @@ import users from './users'
 import databind from './databind.vue'
 import child from './child_and_props.vue'
 import login from './login.vue'
+import signup from './form.vue'
+import validation from './validation.vue'
+import revisionLogin from './revision.vue'
+import Formchannge from './formchannge.vue'
 
 export default {
     rich:"compo",
@@ -25,7 +33,12 @@ export default {
         products,
         databind,
         child,
-        login
+        login,
+        signup,
+        validation,
+        revisionLogin,
+        Formchannge
+
 
     },
     data()
